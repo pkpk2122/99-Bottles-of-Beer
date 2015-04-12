@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>99 Bottles of beer</title>
+</head>
+<body>
+
+
+<script>
+var numberOfBottles = 99;
+while(numberOfBottles > 0){
+	document.write(numberOfBottles + " bottles of beer on the wall, ");
+	document.write(numberOfBottles + " bottles of beer, ");
+	document.write("take one down and pass it around..." + "<br />");
+	--numberOfBottles;
+}
+if(numberOfBottles < 1) {
+ document.write("Time to buy more beer!");
+}
+
+
+</script>
+</body>
+</html>
